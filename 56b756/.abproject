@@ -5,12 +5,12 @@
   "AppIdentifier": "com.telerik.the56b756",
   "DisplayName": "56b756",
   "Author": "",
-  "Description": "",
+  "Description": "56b756",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
     "1",
-	"2"
+    "2"
   ],
   "iOSBackgroundMode": [],
   "WP8TileTitle": "",
@@ -20,8 +20,8 @@
   "WP8PublisherID": "",
   "WP8ProductID": "",
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.5.0",
   "CorePlugins": [
+    "org.apache.cordova.AudioHandler",
     "org.apache.cordova.battery-status",
     "org.apache.cordova.camera",
     "org.apache.cordova.console",
@@ -35,11 +35,9 @@
     "org.apache.cordova.geolocation",
     "org.apache.cordova.globalization",
     "org.apache.cordova.inappbrowser",
-    "org.apache.cordova.media",
     "org.apache.cordova.media-capture",
     "org.apache.cordova.network-information",
     "org.apache.cordova.splashscreen",
-    "org.apache.cordova.statusbar",
     "org.apache.cordova.vibration"
   ],
   "AndroidPermissions": [
@@ -73,5 +71,6 @@
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
   ],
-  "Framework": "Cordova"
+  "Framework": "Cordova",
+  "FrameworkVersion": "3.0.0"
 }
